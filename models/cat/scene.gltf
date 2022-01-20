@@ -1,0 +1,328 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1273,
+      "max": [
+        1.0984307527542114,
+        4.0293483734130859,
+        6.62188720703125
+      ],
+      "min": [
+        -1.0984307527542114,
+        -4.0374865531921387,
+        -0.045668400824069977
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 15276,
+      "componentType": 5126,
+      "count": 1273,
+      "max": [
+        0.99996662139892578,
+        0.99951964616775513,
+        0.99993652105331421
+      ],
+      "min": [
+        -0.99993050098419189,
+        -0.99952781200408936,
+        -0.99992668628692627
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1273,
+      "max": [
+        0.9996071457862854,
+        0.99994999170303345,
+        0.98653203248977661,
+        1
+      ],
+      "min": [
+        -0.99935281276702881,
+        -0.99961572885513306,
+        -0.99957388639450073,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1273,
+      "max": [
+        0.98668849468231201,
+        0.98803669214248657
+      ],
+      "min": [
+        0.011947154998779297,
+        0.011963218450546265
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 10184,
+      "componentType": 5126,
+      "count": 1273,
+      "max": [
+        0.97605293989181519,
+        1.0938465595245361
+      ],
+      "min": [
+        0.027602167800068855,
+        0.0045619010925292969
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 20368,
+      "componentType": 5126,
+      "count": 1273,
+      "max": [
+        0.98668849468231201,
+        1.0204622745513916
+      ],
+      "min": [
+        0.011947154998779297,
+        0.0064244652166962624
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 30552,
+      "componentType": 5126,
+      "count": 1273,
+      "max": [
+        0.98668849468231201,
+        0.98803669214248657
+      ],
+      "min": [
+        0.011947154998779297,
+        0.011963218450546265
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 6378,
+      "max": [
+        1272
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Gert-Jan van den Boom (https://sketchfab.com/alphafluff)",
+      "license": "CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)",
+      "source": "https://sketchfab.com/models/f1b87a3c86c146c199b2b220b9b72f03",
+      "title": "Grey Cat"
+    },
+    "generator": "Sketchfab-4.14.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 25512,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 40736,
+      "byteOffset": 25512,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 30552,
+      "byteOffset": 66248,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 20368,
+      "byteOffset": 96800,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 117168,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/cat_Material_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "cat_Material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.98334043299999996
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cat_cat_Material_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5,
+            "TEXCOORD_3": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "687414a157b54547bc465c3d5e37307e.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        12.294669151306152,
+        0,
+        0,
+        0,
+        -0,
+        -2.0030558510285895e-06,
+        -12.294669151305991,
+        0,
+        0,
+        12.294669151305991,
+        -2.0030558510285895e-06,
+        0,
+        -3.6640969369727827e-07,
+        5.8625550991564523e-06,
+        5.8625550991564523e-06,
+        1
+      ],
+      "name": "Cat"
+    },
+    {
+      "mesh": 0,
+      "name": "Cat_cat_Material_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+

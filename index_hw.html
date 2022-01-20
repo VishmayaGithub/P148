@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src = "https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene background = "color : #05151E">
+            
+        
+            <a-assets timeout = "1000">
+                <a-asset-item id="girl" src = "models/girl2/scene.gltf"></a-asset-item>
+                <a-asset-item id="cat" src = "models/cat/scene.gltf"></a-asset-item>  
+                <a-asset-item id="road" src = "models/road/scene.gltf"></a-asset-item>   
+                <a-asset-item id="bench" src = "models/bench/scene.gltf"></a-asset-item>           
+                <a-asset-item id="street_light" src = "models/street_light/scene.gltf"></a-asset-item>
+            </a-assets>
+
+            <!--Sky-->
+            <a-plane src = "images/night2.jpg" position = "0 15 -41" height = "60" width = "74"></a-plane>
+
+            <!--Ambient-->
+        <a-entity light="type: ambient;">
+        </a-entity>
+
+            <a-entity position = "-36 9 -14" light="type: point; castShadow: true; intensity: 1.35; color:yellow"></a-entity>
+
+           <!--Girl-->
+            <a-entity>
+                <a-entity position = "-1 -13 -32" gltf-model= "#girl" shadow = "cast :true" scale = "6 6 6"></a-entity>
+            </a-entity>
+
+            <!--Road-->
+            <a-entity>
+                <a-entity position = "-1 -14 -33" gltf-model= "#road" shadow = "cast :true" rotation = "0 180 0" ></a-entity>
+            </a-entity>
+
+            <a-entity>
+                <a-entity position = "-15 -14 -33" gltf-model= "#road" shadow = "cast :true" rotation = "0 180 0" ></a-entity>
+            </a-entity>
+
+            <a-entity>
+                <a-entity position = "13 -14 -33" gltf-model= "#road" shadow = "cast :true" rotation = "0 180 0" ></a-entity>
+            </a-entity>
+
+            <a-entity>
+                <a-entity position = "26 -14 -33" gltf-model= "#road" shadow = "cast :true" rotation = "0 180 0" ></a-entity>
+            </a-entity>
+
+            <a-entity>
+                <a-entity position = "-28 -14 -33" gltf-model= "#road" shadow = "cast :true" rotation = "0 180 0" ></a-entity>
+            </a-entity>
+
+            <!--Cat-->
+            <a-entity>
+                <a-entity position = "9 -13 -31.5" gltf-model= "#cat" shadow = "cast :true" scale = "0.06 0.06 0.06" rotation = "0 60 0"></a-entity>
+            </a-entity>
+
+            <!--Bench-->
+            <a-entity>
+                <a-entity position = "-1 -9 -35" gltf-model= "#bench" shadow = "cast :true" scale = "5.5 8 7" rotation = "0 90 0"></a-entity>
+            </a-entity>
+
+            <!--Street light-->
+            <a-entity>
+                <a-entity position = "-14 -13 -32" gltf-model= "#street_light" shadow = "cast :true" scale = "1.1 1.5 1" ></a-entity>
+            </a-entity>           
+
+            
+
+        </a-scene>
+    </body>
+</html>
